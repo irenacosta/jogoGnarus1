@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;    
+}
+
+body {
+    font-size: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(36, 0, 0) 0%, rgb(121, 16, 9) 35%, rgb(185, 55, 55) 100%);
+    
+
+}
+
+/*Link não visitado */
+a:link {
+    color: seashell;
+    text-decoration: none;
+  }
+  
+  /*Link já visitado*/
+  a:visited {
+    color: seashell;
+    text-decoration: none;
+  }
+  
+  /*Quando o mouse passa por cima*/
+  a:hover {
+    color: rgb(19, 16, 16);
+    text-decoration: none;
+  }
+  
+  /*Link ativo/selecionado*/
+  a:active {
+    color: yellowgreen;
+    text-decoration: none;
+  }
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px
+}
+
+.cabecalho-gnarus {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    font-family: 'Righteous', cursive;
+    color: seashell;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho-gnarus-item {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Righteous', cursive;
+    color: seashell;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    font-family: 'Sarala', sans-serif;
+    color: seashell;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho.menu-item {
+    display: flex;
+    text-align: right;
+    font-family: 'Sarala', sans-serif;
+    color: seashell;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    border-top: 0.4px solid seashell;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    margin: 20px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: seashell;
+}
+
+.conteudo-principal-escrito-descricao1 {
+    padding: 5px;
+    margin: 30px;
+    margin-top: 5px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: seashell;
+}
+
+.conteudo-principal-escrito-descricao2 {
+    margin: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: seashell;
+}
+
+.conteudo-principal-escrito-descricao3 {
+    margin: 10px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: seashell;
+    text-align: center;
+}
+
+.conteudo-principal-botao {
+    background-color: seashell;
+    margin-left: 20px; 
+    width: 130px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: brown;
+}
+
+.conteudo-principal-botao:hover {
+    background-color: gray;
+    color: seashell;
+}
+
+.conteudo-principal-imagem {
+    height: 430px;
+    border-radius: 300px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid seashell;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: seashell;
+    margin-bottom: 16px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 18px;
+    background: rgb(121, 16, 9) 35%;
+    background-size: auto;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: roboto;
+    text-align: center;
+  }
+  
+
+.card-image {
+    grid-area: image;
+  }
+
+.card-text {
+    grid-area: text;
+  }
+
+.card-stats {
+    grid-area: stats; 
+  }
+
+  .card-image {
+    grid-area: image;
+    background: url(/img/imgtonystark.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: 120%;
+    background-repeat: no-repeat;
+  }
+
+
+.card-text {
+    grid-area: text;
+    margin: 25px;
+    margin-bottom: auto;
+    color: seashell;
+    
+  }
+ 
+.card-text .date {
+    color: seashell;
+    font-size:13px;
+  }
+
+.card-text p {
+    padding: 10px;
+    color: white;
+    font-size:15px;
+    font-weight: 300;
+    
+  }
+
+.card-text h2 {
+    margin-top:0px;
+    font-size:28px;
+  }
+
+.card-stats {
+    grid-area: stats; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(218, 178, 2);
+  }
+
+.card-stats .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    font-weight: 100;
+    padding:10px;
+  }
+
+.card:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+
+.card {
+  
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+  }
+
+.rodape {
+    padding: 18px;
+    border-top: 0.4px solid seashell;
+ 
+}
+
+.rodape-conteudo {
+    text-align: center;
+    font-family: 'Sarala', sans-serif;
+    color: seashell;
+    
+}

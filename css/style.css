@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;    
+}
+
+body {
+    font-size: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-image: url(/img/imgfundofase1.png);
+    background-size: cover;
+
+}
+
+
+
+/*Link não visitado */
+a:link {
+    color: seashell;
+    text-decoration: none;
+  }
+  
+  /*Link já visitado*/
+  a:visited {
+    color: seashell;
+    text-decoration: none;
+  }
+  
+  /*Quando o mouse passa por cima*/
+  a:hover {
+    color: rgb(19, 16, 16);
+    text-decoration: none;
+  }
+  
+  /*Link ativo/selecionado*/
+  a:active {
+    color: yellowgreen;
+    text-decoration: none;
+  }
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px
+}
+
+.cabecalho-gnarus {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    font-family: 'Righteous', cursive;
+    color: seashell;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho-gnarus-item {
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+    text-align: left;
+    font-family: 'Righteous', cursive;
+    color: seashell;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    font-family: 'Sarala', sans-serif;
+    color: seashell;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho.menu-item {
+    display: flex;
+    text-align: right;
+    font-family: 'Sarala', sans-serif;
+    color: seashell;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    border-top: 0.4px solid seashell;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    margin: 20px;
+    font-weight: 400;
+    font-size: 58px;
+    color: seashell;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', cursive;
+    margin: 20px;
+    font-weight: 400;
+    font-size: 28px;
+    color: seashell;
+}
+
+.conteudo-principal-escrito-descricao1 {
+    font-family: 'Sarala', sans-serif;
+    margin: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    color: seashell;
+}
+
+.conteudo-principal-escrito-botao {
+    margin: 20px;
+    background-color: seashell;
+    width: 130px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: brown;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: gray;
+    color: seashell;
+}
+
+.conteudo-principal-imagem {
+    height: 430px;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid seashell;
+ 
+}
+
+.rodape-conteudo {
+    text-align: center;
+    font-family: 'Sarala', sans-serif;
+    color: seashell;
+    
+}
