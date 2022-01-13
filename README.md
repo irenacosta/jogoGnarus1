@@ -14,18 +14,11 @@ Uma corporação de narração chamada Gnarus precisou criar um departamento eme
 + 7 participações especiais.
 + 1 narradora Gnarus: Josefa Bórógódó
 
-<h2>Tecnologias usadas</h2>
+<h2>Linguagens usadas</h2>
 
-<table>
-    <tr>
-        <td>HTML</td>
-        <td>CSS</td>
-        <td>Script</td>    
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>3</td>
-        <td>Javascript</td>
-    </tr>
-</table>
-# jogoGnarus
+<div style="display: inline_block"><br>
+  <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+</div>
+
