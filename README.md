@@ -1,8 +1,8 @@
 <h1>Gnarus: escolha a aventura dos Vingadores no Blip!</h1>
 
-> Status: ✨ projeto finalizado ✨
-> 🏆 Projeto entregue dentro do prazo
-> 🏆 Projeto teve apresentação do tipo Pitch no final do Módulo I do curso de Desenvolvimento Web Full Stack da Resilia.
+> <p>Status: ✨ projeto finalizado ✨</p>
+> <p>🏆 Projeto entregue dentro do prazo</p>
+> <p>🏆 Projeto teve apresentação do tipo Pitch no final do Módulo I do curso de Desenvolvimento Web Full Stack da Resilia</p>
 
 ### Jogo do tipo "Choose Your Adventure" desenvolvido como projeto final do Módulo 1 do curso de Desenvolvimento Web Full Stack da Resilia Educação (Turma 15 - Dez/2021 a Jun/2022)
 
@@ -24,5 +24,6 @@ Uma corporação de narração chamada Gnarus precisou criar um departamento eme
   <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 </div>
 
-## Acompanhe a expansão do jogo:
+## Acompanhe a expansão do jogo em novo repositório:
 
+<a href="https://github.com/irenacosta/Gnarus">![alt-text](https://user-images.githubusercontent.com/94466133/149835803-b6db70f4-259f-402c-a484-daf684496f11.png)</a>
