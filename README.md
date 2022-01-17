@@ -26,4 +26,4 @@ Uma corporação de narração chamada Gnarus precisou criar um departamento eme
 
 ## Acompanhe a expansão do jogo em novo repositório:
 
-<a href="https://github.com/irenacosta/Gnarus">![alt-text](https://user-images.githubusercontent.com/94466133/149835803-b6db70f4-259f-402c-a484-daf684496f11.png)</a>
+<a href="https://github.com/irenacosta/Gnarus">![alt-text](https://user-images.githubusercontent.com/94466133/149836896-876ee185-541e-4907-92a0-6d7ae133fbfa.png)</a>
